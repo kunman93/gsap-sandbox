@@ -1,15 +1,26 @@
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 body {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  min-height: 100vh;
   margin: 0;
-  overflow: hidden;
 
   .box {
-    display: block;
-    width: 100px;
-    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    margin-left: 10rem;
+  }
+  
+  .green {
     background-color: green;
+  }
+
+  .red {
+    background-color: red;
   }
 }
